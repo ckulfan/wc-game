@@ -1,0 +1,59 @@
+.PnpScoring {
+    align-content: center;
+    text-align: left;
+}
+
+.ScoringTable {
+    align-content: center;
+    margin: 4px;
+    width: auto;
+    padding: 0px 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    font-size: 1.0rem;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.OwnerName:hover {
+    cursor: pointer;
+}
+
+
+.LeftField {
+    text-align: left;
+}
+
+.RightField {
+    text-align: right;
+}
+
+.GroupName {
+    font-size: 0.8rem;
+}
+
+.BlackItem {
+    color: black;
+}
+
+.RedItem {
+    color: red;
+}
+
+.BlueItem {
+    color: blue;
+}
+
+.GreenItem {
+    color: green;
+}
+
+.YellowItem {
+    color: rgb(176, 179, 34);
+}
+
+.GrayItem {
+    color: gray;
+}

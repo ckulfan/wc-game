@@ -1,0 +1,39 @@
+.KnockoutStage {
+    overflow: hidden;
+    margin: 8px auto;
+    width: 900px;
+    text-align: left;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.Fixtures {
+    margin: 4px;
+    width: 25%;
+    padding: 0px 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    float: right;
+    font-size: 1.0rem;
+    border-spacing: 10px;
+}
+
+.FixtureTable {
+    width: 100%;
+}
+
+.FixtureTable td {
+
+}
+
+.FixtureTable tr {
+    line-height: 22px;
+}
+
+.ThirdPlaceHeading {
+    vertical-align: bottom
+}
+
+.GameTitleHeading {
+    font-weight: bold;
+}

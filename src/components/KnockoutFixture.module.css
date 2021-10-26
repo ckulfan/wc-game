@@ -1,0 +1,57 @@
+.KnockoutFixture {
+    margin: 4px;
+    width: 80%;
+    padding: 4px 8px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    float: left;
+    background-color: white;
+}
+
+.LeftScoreInput {
+    text-align: right;
+    padding-right: 5px;
+    width: 2ch; 
+    height: 20px; 
+    padding: 1px
+}
+
+.FixtureTable {
+    width: 100%;
+}
+
+.FixtureTable tr {
+    line-height: 32px;
+}
+
+.Winner {
+    font-weight: bold;
+}
+
+.Normal {
+
+}
+
+.BlackItem {
+    color: black;
+}
+
+.RedItem {
+    color: red;
+}
+
+.BlueItem {
+    color: blue;
+}
+
+.GreenItem {
+    color: green;
+}
+
+.YellowItem {
+    color: rgb(176, 179, 34);
+}
+
+.GrayItem {
+    color: gray;
+}
