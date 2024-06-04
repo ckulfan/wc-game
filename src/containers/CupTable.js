@@ -6,7 +6,7 @@ import WorldCupSetup from '../components/WorldCupSetup';
 import classes from './CupTable.module.css';
 import PnpScoring from '../components/PnPScoring';
 import Footer from '../components/Footer';
-import SimpleStorage, { clearStorage } from 'react-simple-storage';
+import SimpleStorage from 'react-simple-storage';
 import {mens2018Default, womens2019Default, womens2015Default, mens2002Default, mens1966Default, genaric32Default, genaric24Default, genaric16Default } from './defaults';
 
 class CupTable extends Component {
@@ -825,7 +825,6 @@ class CupTable extends Component {
     }
 
     toggleFixtures = (event) => {
-        event.target.innerHTML = ( event.target.innerHTML == "Enter Scores" ? "Hide Scores" : "Enter Scores" );
         let stateCopy = this.deepCopy(this.state);
         stateCopy.renderFixtures = !this.state.renderFixtures;
         this.setState(stateCopy);
@@ -1159,7 +1158,7 @@ class CupTable extends Component {
                 }
                 <h1>{this.state.title}</h1>
                 <h2>Group Stage</h2>
-					<button onClick={(event) => this.toggleFixtures(event)}>Hide Scores</button>
+					<button onClick={(event) => this.toggleFixtures(event)}>Toggle Score Display</button>
                 <div className={groupStandingsClass}>
                     {groups}
                 </div>
