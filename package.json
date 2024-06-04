@@ -1,7 +1,7 @@
 {
   "name": "world-cup-table",
   "version": "0.1.0",
-  "homepage": "http://tharkad.github.io/world-cup-table",
+  "homepage": "http://ckulfan.github.io/wc-game",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
