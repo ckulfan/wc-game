@@ -1,7 +1,7 @@
 {
   "name": "wc-game",
   "version": "0.1.0",
-  "homepage": "http://ckulfan.github.io/wc-game",
+  "homepage": "https://ckulfan.github.io/wc-game",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
